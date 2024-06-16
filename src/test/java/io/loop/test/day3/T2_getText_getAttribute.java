@@ -38,6 +38,7 @@ public class T2_getText_getAttribute {
         } else {
             System.out.println("Expected placeholder are DOES NOT MAtch  with actual");
             System.err.println("TEST FAILED");
+
         }
 
 
