@@ -40,10 +40,5 @@ public class T2_getText_getAttribute {
             System.err.println("TEST FAILED");
 
         }
-
-
-
-
-
     }
 }
