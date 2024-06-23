@@ -1,4 +1,4 @@
-package io.loop.test.da1_selenium_intro;
+package io.loop.test.test.da1_selenium_intro;
 
 public class SeleniumTest {
     public static void main(String[] args) {
