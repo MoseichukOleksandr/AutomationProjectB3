@@ -6,6 +6,8 @@ public class DocuportConstants {
 
     public static final String ERROR_MESSAGE_FOR_EMPTY_PASSWORD = "Please enter your password";
     public static final String LOGO_DOCUPORT = "Docuport";
+    public static final String PASSWORD_CLIENT = "Group2";
+    public static final String ERROR_MESSAGE_FOR_EMPTY_USER_NAME_OR_EMAIL = "Please enter your username or email address";
 
 
 
