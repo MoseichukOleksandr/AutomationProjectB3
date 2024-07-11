@@ -16,7 +16,7 @@ Expected: Gmail
 6- Verify title equals:
 Expected: Google
  */
-public class Task1 {
+public class Day3_Task1 {
     public static void main(String[] args) {
 
         // create the driver object
