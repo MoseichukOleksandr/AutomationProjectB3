@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 Expected: “Wooden spoon | Etsy”
 
  */
-public class Task2 {
+public class Day3_Task2 {
     public static void main(String[] args) throws InterruptedException {
 
         WebDriver driver = new ChromeDriver();

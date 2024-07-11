@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -23,7 +24,7 @@ public class T4_dropdown_options {
 
     WebDriver driver;
 
-    @BeforeMethod
+    @BeforeClass
     public void setUpMethod(){
         driver = WebDriverUtil.getDriver("chrome");
         driver.manage().window().maximize();
