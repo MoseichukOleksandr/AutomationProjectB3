@@ -35,14 +35,11 @@ public class T3_upload  {
         WebElement submithButton = Driver.getDriver().findElement(By.xpath("//button[@id='submitbutton']"));
         submithButton.click();
 
-
         Thread.sleep(3000);
         WebElement succsessMessage = Driver.getDriver().findElement(By.xpath("//h3[@id='res']"));
 
-        String expected ="1 file\n" +
-                "has been successfully uploaded.";
-        Assert.assertEquals(expected,succsessMessage);
+        String expected ="1 file\nhas been successfully uploaded.";
+        Assert.assertEquals(expected,succsessMessage.getText());
 
     }
-
 }
